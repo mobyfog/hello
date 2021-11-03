@@ -8,13 +8,19 @@
         }
     ],
     "require": {
+        "php": "^7.0",
         "simplito/elliptic-php": "^1.0",
         "kornrunner/keccak": "^1.0",
         "guzzlehttp/guzzle": "^6.3"
     },
+    
+    "license": "MIT",
+    
     "autoload": {
         "psr-4": {
             "testns\\": "src/"
         }
     }
+    
+    
 }
